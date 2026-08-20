@@ -4,7 +4,7 @@ A four-corner tracked ground platform designed at the Autonomous Platforms Lab (
 
 This repository documents the mechanical design, the drivetrain, the wiring, and the control validation work that was completed — and the system plan that was not.
 
-![Chassis assembly in SolidWorks](media/cad-assembly.jpg)
+![Chassis assembly in SolidWorks](media/cad-assembly.png)
 
 ## Status
 
