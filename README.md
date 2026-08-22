@@ -1,6 +1,6 @@
 # Tracked Robotic Platform — 350 kg Payload Class
 
-A four-corner tracked ground platform designed at the Autonomous Platforms Lab (APL), Jordan University of Science and Technology, targeting a 350 kg payload for warehouse logistics and defense applications.
+A four-corner tracked ground platform designed at the Autonomous Platforms Lab (APL), Jordan University of Science and Technology, targeting a 350 kg payload for industrial and logistics applications.
 
 This repository documents the mechanical design, the drivetrain, the wiring, and the control validation work that was completed — and the system plan that was not.
 
@@ -8,7 +8,7 @@ This repository documents the mechanical design, the drivetrain, the wiring, and
 
 ## Status
 
-**Halted.** Drivetrain integration, wiring, and joystick control were built and validated on a bench rig. Frame fabrication and power integration did not proceed after external project funding was withdrawn. Everything in the *Built* sections below was completed and tested; everything in *Planned* was designed but never executed.
+**Halted.** Drivetrain integration, wiring, and joystick control were built and validated on a bench rig. Frame fabrication and power integration did not proceed after project funding ended. Everything in the *Built* sections below was completed and tested; everything in *Planned* was designed but never executed.
 
 ## Design target
 
@@ -17,8 +17,10 @@ This repository documents the mechanical design, the drivetrain, the wiring, and
 | Payload class | 350 kg |
 | Locomotion | Tracked, four driven corners |
 | Drivetrain | Paired BLDC hub motors per corner |
-| Applications | Warehouse logistics, defense |
-| My role | Mechanical design, drivetrain integration, wiring harness, control validation |
+| Applications | Industrial and logistics |
+| My role | Sole engineer — mechanical design, drivetrain integration, wiring harness, control validation |
+
+Built at APL under the supervision of Dr. Yahia M. Al-Smadi.
 
 ---
 
@@ -41,6 +43,10 @@ Custom sprockets were designed in SolidWorks and **CNC-machined**, then mounted 
 The frame was designed around **standard steel tube sections available on the local market**, so that fabrication would need cutting and welding only — no custom extrusion, no machined structural parts. Designing to available stock rather than to an ideal geometry was a deliberate cost decision.
 
 ![Exploded view](media/cad-exploded.jpg)
+
+The assembly was built from 17 individually modelled parts: standard tube sections, wheel mounts and holders, the hoverboard motor assembly, and the custom sprocket.
+
+![Part library](media/parts-library.jpg)
 
 CAD source files are not published in this repository.
 
@@ -84,10 +90,6 @@ Battery cells were salvaged from a **Nissan Leaf pack**, disassembled to cell le
 - A modular top deck: a seat for a human operator, removable so a robotic arm could be mounted in its place instead
 - Auxiliary controls on buttons alongside the primary joystick
 
-### Exhibition
-
-The platform was intended for exhibition at **SOFEX**, positioned for warehouse logistics and defense use. It was never shown.
-
 ---
 
 ## What I would do differently
@@ -96,15 +98,11 @@ The platform was intended for exhibition at **SOFEX**, positioned for warehouse 
 - Instrument the bench rig with current measurement, to characterise torque under load instead of relying on qualitative response.
 - Sequence power integration earlier. Leaving the battery to the end meant that when funding stopped, the platform had a working drivetrain and no way to run untethered.
 
+---
 
 ## Acknowledgement
 
-This project was conceived, supervised, and personally funded by
-Dr. Yahia M. Al-Smadi at the Autonomous Platforms Lab, JUST.
-Work stopped when he relocated.
-
-This repository documents my own contribution to the project:
-mechanical design, drivetrain integration, wiring, and control validation.
+This project was conceived, supervised, and personally funded by Dr. Yahia M. Al-Smadi at the Autonomous Platforms Lab, JUST. Work stopped when he relocated.
 
 ---
 
